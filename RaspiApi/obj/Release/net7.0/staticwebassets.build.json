@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nGgQTRGi4ectuNOnSfQpB1PwO0jvb4QHbwzka0fL8i4=",
+  "Source": "RaspiApi",
+  "BasePath": "_content/RaspiApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -10,11 +10,19 @@
         <PackageReference Include="Iot.Device.Bindings" Version="2.3.0-prerelease.22520.10" />
         <PackageReference Include="kenssamson.rpi-ws281x-csharp" Version="1.1.0" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.0" />
+        <PackageReference Include="Microsoft.Extensions.ApiDescription.Server" Version="8.0.0-rc.1.23421.29">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
     </ItemGroup>
 
     <ItemGroup>
       <Folder Include="Controllers" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\MauiAppBlazorTest\PeriodicSystem.Core\PeriodicSystem.Core.csproj" />
     </ItemGroup>
 
 </Project>
